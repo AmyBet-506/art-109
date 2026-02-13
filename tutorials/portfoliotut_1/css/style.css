@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 100%;
+}
+
+body {
+  background-image: url(../images/water.gif);
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  
+}
+
+
+header {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 3rem 1rem;
+  background: linear-gradient(20deg, red 0%, orange 20%, yellow 40%, green 60%, blue 80%, violet 100%);
+  margin-bottom: 3rem;
+  text-align: center;
+  color: azure;
+  border-bottom: plum 3px solid;
+}
+
+header h1 {
+  font-size: 5rem;
+}
+
+nav{
+  position: absolute;
+  left: 2rem;
+}
+
+nav a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: 0 2rem;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.about-content, .portfolio-content, .contact-content{
+  max-width: 60rem;
+  margin: 2rem auto;
+}
+
+.about-content h2, .portfolio-content h2, .contact-content h2{
+  padding: 2rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-section, .portfolio-section, .contact-section{
+  margin-bottom: 4rem;
+}
+
+.portfolio-item{
+  margin-bottom: 3rem;
+  background: rgba(4, 170, 109, 0.3);
+  padding: 3rem;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  display: block;
+  border-radius: 0.2rem;
+  /*box-shadow: 10px 10px 2px lightblue;*/
+  border: #fab3ce;
+  border-width: 0.9rem;
+  border-style:double;
+}
+
+.portfolio-item h3{
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+  margin-top: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+
+footer{
+  background: rgba(4, 170, 109, 0.5);
+  padding: 0.2rem;
+}
+footer p{
+  margin-left: 1rem;
+  font-size: 1rem;
+}
