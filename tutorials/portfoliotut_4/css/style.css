@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+:root{
+  --bg: #eee;
+  --font: #222;
+
+}
+
+body.dark{
+  --bg: #222;
+  --font: #cfff91;
+}
+
+body{
+  color: var(--font);
+  background-color: var(--bg);
+}
+
+
+header{
+  padding: 5rem;
+}
+
+main{
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+img{
+  width:25rem;
+}
+
+.hidden{
+  display: none;
+}
+
+#img1{
+  position: absolute;
+  top: 3rem;
+  left: 55rem;
+}
+
+#img2{
+  position: absolute;
+  top: 20rem;
+  left: 35rem;
+}
+
+#img3{
+  position: absolute;
+  top: 19rem;
+  left: 55rem;
+}
