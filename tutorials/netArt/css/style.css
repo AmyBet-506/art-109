@@ -1,0 +1,18 @@
+.water {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.pagetext{
+  position: relative;
+  margin: 50px auto;
+  max-width: 600px;
+  font-size: 2.5rem;
+}
+
+.blink24{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
