@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Insurance</title>
+    <meta name="description" content="Compare healthcare, dental, and vision insurance plans in your area with a modern, easy-to-use experience.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <span class="logo">🩺</span>
+                <div>
+                    <p class="eyebrow">Healthcare Marketplace</p>
+                    <h1>Shop (Honest) Insurance Plans</h1>
+                </div>
+            </div>
+            <nav class="site-nav">
+                <a href="#resources">Resources</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="tagline">Compare unfair pricing, poor benefits, and high premiums.</p>
+                    <h2>Find a plan that fits inside your life and outside your budget</h2>
+                </div>
+                <div class="hero-panel">
+                    <div class="panel-header">
+                        <p class="panel-title">Coverage options</p>
+                        <p class="panel-subtitle">Explore both medical and supplemental plans in one place.</p>
+                    </div>
+                    <div class="plan-grid">
+                        <article class="plan-card">
+                            <p class="plan-label">Health Insurance</p>
+                            <p>Unaffordable solutions to your favorite chronic problems.</p>
+                        </article>
+                        <article class="plan-card">
+                            <p class="plan-label">Supplemental Health Insurance</p>
+                            <p>Eye and Dental Care<br>
+                             For the fiscally irresponsible parts of your body.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container reveal-button-container" id="faq-reveal-container">
+            <button class="button button-primary" id="reveal-faq-btn">Premium FAQ</button>
+        </div>
+
+        <div class="container wait-message hidden" id="wait-message">
+            <p>Please wait, if this is an emergency then continue waiting.</p>
+        </div>
+
+        <section class="faq-section hidden" id="faq">
+            <div class="container section-head">
+                <h2>Premium FAQ Section</h2>
+            </div>
+            <div class="container faq-grid">
+                <article class="faq-item">
+                    <button class="faq-button" aria-expanded="false" aria-controls="faq-panel-1" id="faq-button-1">Why isn't vision/dental included in my insurance?</button>
+                    <div class="faq-panel" id="faq-panel-1" role="region" aria-labelledby="faq-button-1">
+                        <p>Teeth and eyes are typically viewed as aesthetic parts of your body. It is fiscally irresponsible for patients to have them if they are unable to afford them.
+                            Our agents can assist you in removing one or both eyes in order to save on healthcare costs.
+                        </p>
+                    </div>
+                </article>
+                <article class="faq-item">
+                    <button class="faq-button" aria-expanded="false" aria-controls="faq-panel-2" id="faq-button-2">Why is it so expensive?</button>
+                    <div class="faq-panel" id="faq-panel-2" role="region" aria-labelledby="faq-button-2">
+                        <p>If we could charge more and offer less we would. If you get our premium plan we will even cover 100% of the <a href="https://www.asahq.org/about-asa/newsroom/news-releases/2024/11/anthem-blue-cross-blue-shield-will-not-pay-complete-duration-of-anesthesia-for-surgical-procedures" class="analink" target="_blank">
+                            anasthesia</a> for your procedures. Talk about a bargin!
+                        </p>
+                    </div>
+                </article>
+                <article class="faq-item">
+                    <button class="faq-button" aria-expanded="false" aria-controls="faq-panel-4" id="faq-button-4">Why is my procedure considered “aesthetic?”</button>
+                    <div class="faq-panel" id="faq-panel-4" role="region" aria-labelledby="faq-button-4">
+                        <p>As long as we can get away with calling a medically necessary procedure aesthetic we will continue denying coverage on that basis. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10142323/" class="analink" target="_blank">Transgender</a> patients
+                         are very easy to deny healthcare to on this basis.</p>
+                    </div>
+                </article>
+                <article class="faq-item">
+                    <button class="faq-button" aria-expanded="false" aria-controls="faq-panel-7" id="faq-button-7">How do insurance companies make money?</button>
+                    <div class="faq-panel" id="faq-panel-7" role="region" aria-labelledby="faq-button-7">
+                        <p>We are incentivized to deny coverage as that improves our bottom line and allows our oppressed CEO class to purchase more yatchs.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class="container reveal-button-container" id="faq2-reveal-container">
+            <button class="button button-primary" id="reveal-faq2-btn">Gold FAQ</button>
+        </div>
+
+        <div class="container wait-message hidden" id="wait-message2">
+            <p>Americans <a href="https://www.healthsystemtracker.org/chart-collection/health-spending-u-s-compare-countries/#Cumulative%20percent%20change%20in%20annual%20GDP%20&amp;%20health%20consumption%20expenditures%20per%20capita,%20current%20prices,%20current%20PPPs,%202015-2024" target="_blank" class="analink">
+                spend</a> significantly more on healthcare than other comparably wealthy nations with worse overall outcomes. At the very least <a href="https://research-ebsco-com.libaccess.sjlibrary.org/linkprocessor/plink?id=36d91536-3c30-3bf4-abfe-558d0da04901" target="_blank" class="analink">
+                wage inequities have grown</a> between CEOs and rank-and-file workers.
+            </p>
+        </div>
+
+        <section class="faq-section hidden" id="faq2">
+            <div class="container section-head">
+                <h2>Gold FAQ Section</h2>
+            </div>
+            <div class="container faq-grid">
+                <article class="faq-item">
+                    <button class="faq-button" aria-expanded="false" aria-controls="faq2-panel-1" id="faq2-button-1">Why was my claim denied?</button>
+                    <div class="faq-panel" id="faq2-panel-1" role="region" aria-labelledby="faq2-button-1">
+                         <p>Our <a href="https://www.pbs.org/newshour/show/how-algorithms-are-being-used-to-deny-health-insurance-claims-in-bulk" class="analink" target="_blank">automated systems</a> are used to deny claims and appeals in bulk. 
+                        In the past we would rely on humans to <a href="https://jacobin.com/2021/06/united-health-care-insurance-profits-emergency-room-bills" class="analink" target="_blank">deny claims,</a> however they were too easily swayed by sob stories and had to be automated.
+                    </p>
+                    </div>
+                </article>
+                <article class="faq-item">
+                    <button class="faq-button" aria-expanded="false" aria-controls="faq2-panel-2" id="faq2-button-2">How can I lower my deductible?</button>
+                    <div class="faq-panel" id="faq2-panel-2" role="region" aria-labelledby="faq2-button-2">
+                        <p>As long as you are eager to pay more in premiums!</p>
+                    </div>
+                </article>
+                <article class="faq-item">
+                    <button class="faq-button" aria-expanded="false" aria-controls="faq2-panel-3" id="faq2-button-3">What if I have a pre-existing condition?</button>
+                    <div class="faq-panel" id="faq2-panel-3" role="region" aria-labelledby="faq2-button-3">
+                        <p>Unfortunately we are no longer legally allowed to deny coverage on the basis of an individual being born with an illness. If we could still legally deny coverage over that then we 
+                            <a href="https://doi.org/10.1002/cncy.22698" class="analink" target="_blank">absolutely would.</a></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class="container reveal-button-container" id="faq3-reveal-container">
+            <button class="button button-primary" id="reveal-faq3-btn">Platinum FAQ</button>
+        </div>
+
+        <div class="container wait-message hidden" id="wait-message3">
+            <p>Getting sick is fiscally irresponsible, try your best to avoid having a chronic condition.</p>
+        </div>
+
+        <section class="faq-section hidden" id="faq3">
+            <div class="container section-head">
+                <h2>Platinum FAQ Section</h2>
+            </div>
+            <div class="container faq-grid">
+                <article class="faq-item">
+                    <button class="faq-button" aria-expanded="false" aria-controls="faq3-panel-1" id="faq3-button-1">Why do I need insurance if I'm healthy?</button>
+                    <div class="faq-panel" id="faq3-panel-1" role="region" aria-labelledby="faq3-button-1">
+                        <p>You might be <a href="https://www.kff.org/faqs/faqs-health-insurance-marketplace-and-the-aca/marketplace-basics/im-uninsured-am-i-required-to-get-health-insurance/" class="analink" target="_blank">
+                        legally required</a> to.</p>
+                    </div>
+                </article>
+                <article class="faq-item">
+                    <button class="faq-button" aria-expanded="false" aria-controls="faq3-panel-2" id="faq3-button-2">What happens if I miss a premium payment?</button>
+                    <div class="faq-panel" id="faq3-panel-2" role="region" aria-labelledby="faq3-button-2">
+                        <p>You get to go fuck yourself <3</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="resources">
+        <div class="container footer-inner">
+            <div>
+                <h2>More Resources</h2>
+                <ul class="footer-links">
+                    <li><a href="https://www.asahq.org/about-asa/newsroom/news-releases/2024/11/anthem-blue-cross-blue-shield-will-not-pay-complete-duration-of-anesthesia-for-surgical-procedures" target="_blank">Anasthesia is not necessary for the entire surgery</a></li>
+                    <li><a href="https://research-ebsco-com.libaccess.sjlibrary.org/linkprocessor/plink?id=36d91536-3c30-3bf4-abfe-558d0da04901" target="_blank">Hospital CEOs deserve more pay than doctors</a></li>
+                    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10142323/" target="_blank">Medically necessary healthcare procedures for minorities are optional</a></li>
+                    <li><a href="https://www.healthsystemtracker.org/chart-collection/health-spending-u-s-compare-countries/#Cumulative%20percent%20change%20in%20annual%20GDP%20&amp;%20health%20consumption%20expenditures%20per%20capita,%20current%20prices,%20current%20PPPs,%202015-2024" target="_blank">The US spends more on healthcare than other comparable nations</a></li>
+                    <li><a href="https://www.pbs.org/newshour/show/how-algorithms-are-being-used-to-deny-health-insurance-claims-in-bulk" target="_blank">Algorithms are used to deny healthcare in bulk and to avoid accountability</a></li>
+                    <li><a href="https://jacobin.com/2021/06/united-health-care-insurance-profits-emergency-room-bills" target="_blank">Health Insurance corporations are incentivized to deny coverage</a></li>
+                    <li><a href="https://doi.org/10.1002/cncy.22698" target="_blank">Being born with an illness was a reason to deny coverage before the passage of the Affordable Care Act</a></li>
+                    <li><a href="https://www.kff.org/faqs/faqs-health-insurance-marketplace-and-the-aca/marketplace-basics/im-uninsured-am-i-required-to-get-health-insurance/" target="_blank">You are legally required to engage with a predatory and exploitative system in several US States</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
